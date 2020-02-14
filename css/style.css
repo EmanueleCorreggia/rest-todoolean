@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.todos {
+  border-top: 1px solid grey;
+}
+
+.todo{
+  min-height: 100px;
+  background: lightgreen;
+  margin: 10px 0;
+  position: relative;
+}
+.todo .delete-todo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
